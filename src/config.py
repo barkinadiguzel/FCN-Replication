@@ -1,0 +1,11 @@
+NUM_CLASSES = 21  
+
+INPUT_SIZE = None  
+
+VGG_BACKBONE = "vgg16"
+
+STRIDE_32 = 32
+STRIDE_16 = 16
+STRIDE_8 = 8
+
+INIT_UPSAMPLING = "bilinear"
