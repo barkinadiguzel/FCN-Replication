@@ -94,25 +94,25 @@ FCN-Replication/
 ├── src/
 │   │
 │   ├── blocks/
-│   │   ├── conv_block.py        # conv + ReLU (VGG-style)
-│   │   ├── fc_to_conv.py        # FC → Conv dönüşümü
-│   │   ├── score_layer.py       # 1x1 conv (class scores)
-│   │   ├── upsampling.py        # deconv (transpose conv)
-│   │   └── skip_fusion.py       # element-wise sum (skip connection)
+│   │   ├── conv_block.py       
+│   │   ├── fc_to_conv.py      
+│   │   ├── score_layer.py   
+│   │   ├── upsampling.py      
+│   │   └── skip_fusion.py      
 │   │
 │   ├── backbone/
-│   │   └── vgg16_fcn.py         # VGG16 → fully conv (pool1–pool5)
+│   │   └── vgg16_fcn.py        
 │   │
 │   ├── model/
-│   │   └── fcn8s.py             # FINAL MODEL (FCN-8s)
+│   │   └── fcn8s.py         
 │   │
 │   ├── head/
-│   │   └── segmentation_head.py # final pixel-wise output
+│   │   └── segmentation_head.py 
 │   │
-│   └── config.py                # num_classes, channels
+│   └── config.py                
 │
 ├── images/
-│   └── figmix.jpg               # FCN-32s / 16s / 8s diagram (makaledeki Fig.3-4 mantığı)
+│   └── figmix.jpg             
 │
 ├── requirements.txt
 └── README.md
